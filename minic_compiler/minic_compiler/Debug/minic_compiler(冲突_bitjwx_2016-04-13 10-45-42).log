@@ -1,0 +1,41 @@
+﻿Build started 2016-04-13 10:45:41.
+     1>Project "F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\minic_compiler.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\minic_compiler.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Debug\minic_compiler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         F:\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\minic_compiler.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\minic_compiler.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt minic_compiler.cpp
+         minic_compiler.cpp
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\symbol.h(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\scan.h(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\scan.h(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\scan.h(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\minic_compiler.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\minic_compiler.cpp(48): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\minic_compiler.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program\vc\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         F:\program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\\bin\minic_compiler.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\minic_compiler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\bin\minic_compiler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\\bin\minic_compiler.lib" /MACHINE:X86 Debug\minic_compiler.obj
+         Debug\stdafx.obj
+     1>minic_compiler.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         minic_compiler.vcxproj -> F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\\bin\minic_compiler.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\\bin\minic_compiler.exe;#1" /manifest Debug\minic_compiler.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\minic_compiler.unsuccessfulbuild".
+         Touching "Debug\minic_compiler.lastbuildstate".
+     1>Done Building Project "F:\labfile\file\教学相关\编译原理-英文\2016\minic_compiler\minic_compiler\minic_compiler.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
